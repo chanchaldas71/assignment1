@@ -36,7 +36,7 @@ body {
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-    border: red 1px solid;
+    /* border: red 1px solid; */
     padding: 24px 17px;
     border-radius: 8px;
     border: 1px solid #0D1321;
@@ -108,7 +108,7 @@ body {
 
 /* main section start here */
 .main-section {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin-left: 150px;
     margin-right: 150px;
     margin-top: 160px;
@@ -134,7 +134,7 @@ body {
 
 .Development-section-1 {
     display: flex;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     padding: 48px;
 }
 
@@ -194,7 +194,7 @@ body {
 .Development-section-2 {
     display: flex;
     width: 100%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     padding: 48px;
 }
 
@@ -224,14 +224,14 @@ body {
 
 .My-current-target-section {
     margin-top: 150px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 
 }
 
 .card-section {
     margin-left: 150px;
     margin-right: 150px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
     gap: 24px;
     margin-bottom: 111px;
@@ -248,7 +248,7 @@ body {
     padding: 40px;
     border-radius: 16px;
     background: rgba(255, 76, 30, 0.05);
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .card-2 {
@@ -262,7 +262,7 @@ body {
     padding: 40px;
     border-radius: 16px;
     background: rgba(0, 76, 232, 0.05);
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .card-3 {
@@ -276,7 +276,7 @@ body {
     padding: 40px;
     border-radius: 16px;
     background: rgba(255, 223, 0, 0.05);
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .underline {
@@ -287,14 +287,14 @@ body {
     margin-bottom: 48px;
     margin-left: 150px;
     margin-right: 150px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .target-section-description {
     margin-bottom: 48px;
     margin-left: 150px;
     margin-right: 150px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
     padding: 40px;
     border-radius: 16px;
@@ -329,7 +329,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     align-items: center;
     margin-left: 150px;
     margin-right: 150px;
@@ -344,6 +344,7 @@ body {
     background-blend-mode: overlay;
     align-items: center;
     justify-content: center;
+    margin-bottom: 80px;
 }
 
 .footer-section {
@@ -352,7 +353,7 @@ body {
     justify-content: center;
     justify-items: center;
     align-items: center;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .footer-title {
@@ -378,4 +379,52 @@ body {
     margin-bottom: 24px;
 }
 
+#footer-search {
+    border-radius: 8px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    background: #FFF;
+    width: 548px;
+    padding: 19px 20px;
+    align-items: center;
+    gap: 10px;
+    font-family: "Azeret Mono";
+}
+
+.footer-btn {
+    display: flex;
+    gap: 16px;
+    padding: 17px 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.submit-btn {
+    width: 120px;
+    padding: 17px 20px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background: #FFF;
+    color: #0D1321;
+    text-align: center;
+    font-family: "Azeret Mono";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.footer-social {
+    margin-left: 150px;
+    margin-right: 150px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.social-icon {
+    margin-left: 24px;
+
+}
 /* main section end here */
